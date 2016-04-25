@@ -3,9 +3,71 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>Solar-system by ammunoz</title>
+    <title>Solar System Simulation by ammunoz</title>
 
-    <link rel="stylesheet" href="stylesheets/styles.css">
+	<script type="text/javascript" src="http://webplayer.unity3d.com/download_webplayer-3.x/3.0/uo/UnityObject.js"></script>
+	<script type="text/javascript">
+	<!--
+	function GetUnity() {
+	if (typeof unityObject != "undefined") {
+		return unityObject.getObjectById("unityPlayer");
+	}
+	return null;
+	}
+	if (typeof unityObject != "undefined") {
+	unityObject.embedUnity("unityPlayer", "build/Web.unity3d", 960, 600);
+	}
+	-->
+	</script>
+	<style type="text/css">
+	<!--
+	body {
+		font-family: Helvetica, Verdana, Arial, sans-serif;
+		background-color: white;
+		color: black;
+		text-align: center;
+	}
+	a:link, a:visited {
+		color: #000;
+	}
+	a:active, a:hover {
+		color: #666;
+	}
+	p.header {
+		font-size: small;
+	}
+	p.header span {
+		font-weight: bold;
+	}
+	p.footer {
+		font-size: x-small;
+	}
+	div.content {
+		margin: auto;
+		width: 480px;
+	}
+	div.missing {
+		margin: auto;
+		position: relative;
+		top: 50%;
+		width: 193px;
+	}
+	div.missing a {
+		height: 63px;
+		position: relative;
+		top: -31px;
+	}
+	div.missing img {
+		border-width: 0px;
+	}
+	div#unityPlayer {
+		cursor: default;
+		height: 320px;
+		width: 480px;
+	}
+	-->
+	</style>
+	<link rel="stylesheet" href="stylesheets/styles.css">
     <link rel="stylesheet" href="stylesheets/github-light.css">
     <meta name="viewport" content="width=device-width">
     <!--[if lt IE 9]>
@@ -27,25 +89,35 @@
           <li><a href="https://github.com/ammunoz/Solar-System">View On <strong>GitHub</strong></a></li>
         </ul>
       </header>
-      <section>
-        <h3>
-<a id="solar-system-simulation" class="anchor" href="#solar-system-simulation" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Solar System Simulation</h3>
+	<section>
+	<h3>
+	<a id="solar-system-simulation" class="anchor" href="#solar-system-simulation" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Solar System Simulation</h3>
 
-<p>This simulator is made using Unity3D for the Game Design and Development specialization course offered by Michigan State University on Coursera. </p>
+	<p>This simulator is made using Unity3D for the Game Design and Development specialization course offered by Michigan State University on Coursera. </p>
+	<br>
+	<p> Sizes and distances are not to scale due to the huge discrepancies </p>
+	<h3>
+	<a id="web-player" class="anchor" href="#web-player" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Web Player</h3>
+	<div class="content">
+		<div id="unityPlayer">
+			<div class="missing">
+				<a href="http://unity3d.com/webplayer/" title="Unity Web Player. Install now!">
+					<img alt="Unity Web Player. Install now!" src="http://webplayer.unity3d.com/installation/getunity.png" width="193" height="63" />
+				</a>
+			</div>
+		</div>
+	</div>
+	<p class="footer">« created with <a href="http://unity3d.com/unity/" title="Go to unity3d.com">Unity</a> »</p>
+	<h3>
+	<a id="credits" class="anchor" href="#credits" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Credits</h3>
+
+	<p>Template code and textures are provided in the course.</p>
 
 <h3>
-<a id="web-player" class="anchor" href="#web-player" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Web Player</h3>
+	<a id="support-or-contact" class="anchor" href="#support-or-contact" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Support or Contact</h3>
 
-<h3>
-<a id="credits" class="anchor" href="#credits" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Credits</h3>
-
-<p>Template code and textures are provided in the course.</p>
-
-<h3>
-<a id="support-or-contact" class="anchor" href="#support-or-contact" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Support or Contact</h3>
-
-<p>Problems with the Unity Player? Check out their <a href="https://unity3d.com/webplayer">website</a> or <a href="mailto:munozamb+solar@gmail.com">contact myself</a>.</p>
-      </section>
+	<p>Problems with the Unity Player? Check out their <a href="https://unity3d.com/webplayer">website</a> or <a href="mailto:munozamb+solar@gmail.com">contact myself</a>.</p>
+	</section>
       <footer>
         <p>This project is maintained by <a href="https://github.com/ammunoz">ammunoz</a></p>
         <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
