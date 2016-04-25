@@ -1,0 +1,42 @@
+# Change Log
+
+# [1.0.0] - 2016.04.24
+### Added
+- Speed Slider
+- Change minimap view button
+- Web build
+### Modified
+- Sizes of planets no longer in scale
+- Distances of planets no longer in scale
+### To Fix
+- Scaling
+
+# [0.0.2] - 2016.04.23
+### Added
+- Remaining planets of the solar system
+### Modified
+- Camera values to fit all planets
+- Sun light intesity
+### To Fix
+- Scaling
+
+# [0.0.1] - 2016.04.21
+### Added
+- Textures to Spheres
+- 'Space' skybox
+- Burning sound to Sun
+### Modified
+- Fixed Rotation and Revolution values (now accurate)
+- Ambience light
+- Sun now has light source
+### Removed
+- Directional Light
+
+# [0.0.0] - 2016.04.20
+### Added
+- Spheres
+- Rotation and Revolution animations
+### Modified
+- Modified provided RotateAround script (variable axis)
+### To Fix
+- Rotation and Revolution values
